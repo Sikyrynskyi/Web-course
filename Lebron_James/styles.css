@@ -1,0 +1,107 @@
+body{
+    background-color: ghostwhite;
+}
+
+.navbar{
+    width: 100%;
+    background-color: aqua;
+}
+
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+li {
+    float: left;
+    list-style: none;
+    width: 100px;
+    margin: 3px;
+    margin-bottom: 5px;
+    background-color: ghostwhite;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    float: left;    
+}
+
+#logo{
+    float: right;
+}
+
+#bron{
+    width: 100%
+}
+
+h1,h2,h3 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+#par {
+    margin-left: 105px;
+    margin-right: 100px;
+    text-align: center;
+    width: 70%
+    font-size: 17px;
+}
+
+#kid {
+    float: right;
+    margin-right: 60px;
+}
+
+#cavs {
+    width: 54%;
+    margin-left: 23%;
+    margin-right: 23%;   
+}
+
+#cleve {
+    border-style: solid;
+    border-width: 15px;
+    border-color: navy; 
+    background-color: #580b1c;
+    color: goldenrod;
+}
+
+#young{
+    float:left;
+    width: 40%;
+}
+.right-p{
+    width: 50%;
+    margin-left: 43%;
+    margin-right: 100px;
+}
+#miami{
+    
+}
