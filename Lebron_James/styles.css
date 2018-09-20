@@ -23,7 +23,8 @@ body{
 
 .navbar{
     width: 100%;
-
+    position: fixed;
+    background-color: ghostwhite;
 }
 
 .nav-list{
@@ -49,10 +50,10 @@ li {
 
 li:hover {
   box-shadow:
-    1px 1px azure,
-    2px 2px azure,
-    3px 3px azure,
-    4px 4px black,
+    1px 1px palegreen,
+    2px 2px palegreen,
+    3px 3px palegreen,
+    4px 4px palegreen,
     5px 5px black,
     6px 6px black,
     7px 7px black;
@@ -86,6 +87,7 @@ a {
 
 #logo{
     float: right;
+    margin-right: 20px;
 }
 #logo:hover {
     transform: scale(1.4);
