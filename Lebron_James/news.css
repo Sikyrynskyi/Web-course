@@ -90,16 +90,15 @@ a {
 #logo:hover {
     transform: scale(1.4);
 }
-
-#theking {
-    width: 100%;
-    animation-name: swipe;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
+.cardText {
+  text-align: center;
 }
 
+.cardImg{
+  margin-top: 3%;
+  width: 100%;
+}
 
-#cavs {
-    margin-left: 10%;
-    width: 110%;
+.card {
+  margin: 10px;
 }

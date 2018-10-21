@@ -1,9 +1,10 @@
-@keyframes smooth {
-    from {background-color:#343a40;}
-    to {background-color: ghostwhite;}
-    from{color: white;}
-    to{color: black;}
-}
+  @keyframes smooth {
+      from {background-color:#343a40;}
+      to {background-color: ghostwhite;}
+      from{color: white;}
+      to{color: black;}
+  }
+
 @keyframes swipe{
   0% {
     transform: translateX(110%);
@@ -89,17 +90,4 @@ a {
 
 #logo:hover {
     transform: scale(1.4);
-}
-
-#theking {
-    width: 100%;
-    animation-name: swipe;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-}
-
-
-#cavs {
-    margin-left: 10%;
-    width: 110%;
 }
