@@ -1,0 +1,25 @@
+CACHE MANIFEST
+
+CACHE:
+/styles.css
+/news.css
+/lakers.css
+/fans.css
+/contacts.css
+/cavs.css
+/admin.css
+/cavs.html
+/contacts.html
+/index.html
+/fans.html
+/lakers.html
+/news.html
+
+
+
+
+NETWORK:
+*
+
+FALLBACK:
+/admin.html /error.html
